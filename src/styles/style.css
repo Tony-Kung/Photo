@@ -1,0 +1,38 @@
+* {
+  margin: 0; /*元素四個方向的外邊距*/
+  padding: 0; /*元素四個方向的內邊距*/
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  text-decoration: none; /*字底線*/
+  color: black;
+}
+
+ul {
+  list-style-type: none; /*列表樣式*/
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.morePicture button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgb(240, 177, 101);
+  color: beige;
+  cursor: pointer;
+}
+
+@import "./_nav.css";
+@import "./_search.css";
+@import "./_footer.css";
+@import "./_picture.css";

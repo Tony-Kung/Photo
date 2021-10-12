@@ -1,0 +1,18 @@
+nav {
+  background-color: rgb(156, 86, 221);
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end; /*標籤本來在畫面左邊 我們直接讓他移動到右邊*/
+  margin-right: 3rem;
+}
+
+ul li {
+  padding: 0.5rem 1rem;
+}
+
+ul li a {
+  font-size: 1.5rem;
+  color: aliceblue;
+}

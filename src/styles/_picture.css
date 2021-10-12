@@ -1,0 +1,41 @@
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures picture {
+  padding: 1.5rem;
+  width: 400px;
+}
+
+.pictureName {
+  font-weight: bold;
+  color: rgb(241, 151, 41);
+}
+
+.pictures picture imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+
+.Download {
+  font-weight: bold;
+  color: rgb(255, 72, 0);
+  padding: 0 0 1.5rem 0;
+}
+
+.imageContainer {
+  padding: 1.5rem 0.15rem;
+}
+
+.thePhoto {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.thePhoto:hover {
+  transform: scale(1.25);
+}

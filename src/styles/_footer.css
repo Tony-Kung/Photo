@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: rgb(211, 218, 226);
+}
+
+.footer p {
+  color: slateblue;
+  font-weight: bold;
+}
